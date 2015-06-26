@@ -1,5 +1,5 @@
 {
-  "name": "puppet-mcollective",
+  "name": "AmiGO-mcollective",
   "version": "2.1.2",
   "author": "puppetcommunity",
   "summary": "Installs, configures, and manages MCollective agents, clients, and middleware of an MCollective cluster.",

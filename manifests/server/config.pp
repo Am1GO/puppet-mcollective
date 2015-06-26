@@ -58,6 +58,10 @@ class mcollective::server::config {
     }
   }
 
+  mcollective::server::setting { 'plugin.puppet.signal_daemon':
+    value => false,
+  }
+
   mcollective::soft_include { [
     "::mcollective::server::config::connector::${mcollective::connector}",
     "::mcollective::server::config::securityprovider::${mcollective::securityprovider}",
