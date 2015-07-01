@@ -58,6 +58,10 @@ class mcollective::server::config {
     }
   }
 
+  mcollective::server::setting { 'plugin.activemq.heartbeat_interval':
+    value => 60,
+  }
+
   mcollective::server::setting { 'plugin.puppet.signal_daemon':
     value => false,
   }
